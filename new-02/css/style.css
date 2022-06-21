@@ -1,0 +1,82 @@
+
+body {
+    background: #E5E5E5;
+}
+/* logo крыша*/
+.logo-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-stydio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+/*крыша*/
+.link-stydia {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.link-portfolio, .link-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link-contact:hover,
+.link-portfolio:hover,
+.link-stydia:hover,
+.link-mail:hover,
+.link-tel:hover {
+color: red;
+}
+
+.link:focus
+.mail-tel:focus
+.link-portfolio {
+    color: blue;
+}
+/* mail-tel*/
+.link-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+.link-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+
+}
+
+/*button*/
+.pointer {
+    cursor: pointer;
+  }
