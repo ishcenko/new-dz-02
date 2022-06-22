@@ -2,7 +2,46 @@
 body {
     background: #E5E5E5;
 }
+* {
+    box-sizing: border-box;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0%;
+}
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.header {
+    width: 1600;
+    height: 80;
+    margin: 0 auto;
+    padding: 25px 25px 215px;
+    display: flex;
+    align-items: center;
+}
+
+.navig,
+.link-nav,
+.list {
+    display: flex;
+}
 /* logo крыша*/
+
+/* .link-nav, 
+.mail-tel {
+    display: flex;
+} */
+.navig,
+.logo,
+a {
+    text-decoration: none;
+}
 .logo-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -11,6 +50,7 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
 .logo-stydio {
     font-family: 'Raleway';
@@ -20,6 +60,7 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #000000;
+    
 }
 /*крыша*/
 .link-stydia {
@@ -80,3 +121,35 @@ color: #2196F3;
 .pointer {
     cursor: pointer;
   }
+  /* основной блок */
+  .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*main*/
+.section-one {
+    width: 1600;
+    margin: 0 auto;
+    padding: 200 auto;
+    
+    background: #2F303A;;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
