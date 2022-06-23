@@ -1,46 +1,38 @@
-
-body {
-    background: #E5E5E5;
+/*header*/
+.wrapper {
+    background-color: #FFFFFF;
 }
-* {
-    box-sizing: border-box;
-  }
-
-  .list {
-    list-style: none;
-    padding: 0%;
-}
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-.header {
-    width: 1600;
-    height: 80;
-    margin: 0 auto;
-    padding: 25px 25px 215px;
-    display: flex;
-    align-items: center;
-}
-
-.navig,
-.link-nav,
-.list {
-    display: flex;
-}
-/* logo крыша*/
-
-/* .link-nav, 
-.mail-tel {
-    display: flex;
-} */
 .navig,
 .logo,
 a {
     text-decoration: none;
+}
+.header {
+    width: 1600px;
+    margin: 80px;
+    padding: 25px 215px 25px;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+.link-contact:hover,
+.link-portfolio:hover,
+.link-stydia:hover,
+.link-mail:hover,
+.link-tel:hover {
+color: red;
+}
+.logo:focus
+.list:focus
+.navig:focus {
+    color: black;
+}
+
+.navigation-ws{
+    text-decoration: none;
+    padding: 25px;
+    margin: 55px;
 }
 .logo-web {
     font-family: 'Raleway';
@@ -50,7 +42,6 @@ a {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    text-decoration: none;
 }
 .logo-stydio {
     font-family: 'Raleway';
@@ -59,10 +50,15 @@ a {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #000000;
-    
+    color: #000000; 
 }
-/*крыша*/
+.list {
+    list-style: none;
+}
+.navigation-item{
+    padding-top: 25px;
+    margin: 50px;
+}
 .link-stydia {
     font-family: 'Roboto';
     font-style: normal;
@@ -72,7 +68,7 @@ a {
     letter-spacing: 0.02em;
     color: #2196F3;
 }
-.link-portfolio, .link-contact {
+.link-portfolio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -81,32 +77,31 @@ a {
     letter-spacing: 0.02em;
     color: #212121;
 }
-
-.link-contact:hover,
-.link-portfolio:hover,
-.link-stydia:hover,
-.link-mail:hover,
-.link-tel:hover {
-color: red;
-}
-
-.link:focus
-.mail-tel:focus
-.link-portfolio {
-    color: blue;
-}
-/* mail-tel*/
-.link-mail {
+.link-contact {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
-color: #2196F3;
+    color: #212121;
 }
-.link-tel {
+.mail-tel {
+    padding-top: 25px;
+    padding-left: 300px;
+    margin: 50px;
+}
+.mail-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.mailtel-item {
+    margin-left: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -114,42 +109,15 @@ color: #2196F3;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
-
-}
-
-/*button*/
-.pointer {
-    cursor: pointer;
-  }
-  /* основной блок */
-  .title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
 }
 /*main*/
-.section-one {
-    width: 1600;
-    margin: 0 auto;
-    padding: 200 auto;
-    
-    background: #2F303A;;
-}
 
-.title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+/*footer*/
+/* .footer {
+    width: 1600px;
+    padding: 20px 1240px 20px 215px;
 }
+.adress-item {
+    width: 230px;
+    padding: 20px 60px 215px;
+} */

@@ -6,37 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./new-02/css/normalize.css">
     <link rel="stylesheet" href="./new-02/css/style.css">
 </head>
 <body>
-   <header class="header">
-    <!--WebStudio-->
-    <div class="logo-link">
-        <nav class="navig">
-            <a  class="logo" href="WebStudio"><span class="logo-web"> Web</span> <span class="logo-stydio"> Studio</span> </a>
-                    <!--список-->
-            <ul class="list link-nav">
-                <li> <a class="link" href="#"> <span class="link-stydia"> Студия </span> </a> </li>
-                <li> <a class="link" href="./portfolio.html"> <span class="link-portfolio"> Портфолио </span> </a> </li>
-                <li> <a class="link" href="#"> <span class="link-contact"> Контакты </span>  </a> </li>
-            </ul>
-                </nav>
-            <!--tel mail-->
-            
-            <ul class="list mail-tel">
-                <li>
-                    <a class="link" href="mailto:info@devstudio.com"> <span class="link-mail">info@devstudio.com</span> </a>
-                </li>
-                <li>
-                    <a class="link" href="tel:+380961111111"> <span class="link-tel"> +38 096 111 11 11 </span> </a>
-                </li>
-            </ul>
+    <div class="wrapper">
+        <header class="header">
+            <!--WebStudio-->
+                <nav class=" navig list navigation">
+                    <a class=" logo navigation-ws" href="WebStudio"><span class="logo-web"> Web</span> <span class="logo-stydio"> Studio</span> </a>
+                            <!--список-->
+                    <ul class="list navigation">
+                        <li class="navigation-item"> <a href="#"> <span class="link-stydia"> Студия </span> </a> </li>
+                        <li class="navigation-item"> <a href="./portfolio.html"> <span class="link-portfolio"> Портфолио </span> </a> </li>
+                        <li class="navigation-item"> <a href="#"> <span class="link-contact"> Контакты </span>  </a> </li>
+                    </ul>
+                    <!--tel mail-->
+                    <div class="mail-tel">
+                        <ul class="navig list navigation">
+                            <li>
+                                <a class="mail-item" href="mailto:info@devstudio.com"> <span class="link-mail">info@devstudio.com</span> </a>
+                            </li>
+                            <li>
+                                <a class="mailtel-item" href="tel:+380961111111"> <span class="link-tel"> +38 096 111 11 11 </span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    </nav>
+
+        
+        
+        
+           </header>
     </div>
-
-
-
-   </header>
+   
    <main>
     <!--основной блок-->
     <section class="section-one">
@@ -98,16 +108,19 @@
 </section>    
    </main>
 <!--подвал-->
-   <footer>
-        <a href="WebStudio"> WebStudio </a>
-            <address> 
-            <ul class="list">
-                <li><a href="г.Киев,пр-тЛесиУкраинки,26"> г. Киев, пр-т Леси Украинки, 26 </a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
-            </address>
-   </footer>
+
+<footer class="footer">
+    <a href="WebStudio"><span class="logo-web">Web</span><span class="logo-stydio">Studio</span> </a>
+        <address> 
+        <ul class="list adress-item">
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="г.Киев,пр-тЛесиУкраинки,26"> г. Киев, пр-т Леси Украинки, 26 </a></li>
+            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+        </address>
+</footer>
+  
+
     
 </body>
 </html>
