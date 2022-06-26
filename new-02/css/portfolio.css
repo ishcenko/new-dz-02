@@ -99,3 +99,197 @@ a {
     letter-spacing: 0.02em;
     color: #212121;
 }
+/*main portfolio*/
+.main-section {
+    width: 1600px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 25px 100px 25px 100px;
+    margin-right: 100px;
+    
+    
+}
+.portfolio-section {
+    width: 1170px;
+    /* background: #757575; */
+    background: 
+    #FFFFFF;
+    /* margin-top: 25px; */
+   
+    
+}
+.list-section {
+    margin-left: 225px;
+    margin: 35px;
+    padding-right: 55px;
+    display: inline;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.list-button {
+    
+    /* padding: 30px 200px 60px 200px; */
+}
+/* .list-section {
+    margin: 45px;
+    
+    margin-right: 55px;
+    display: inline;
+    align-items: center;
+    justify-content:space-between;
+
+} */
+.one-btn {
+    background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+.onebtn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.twobtn
+.theebtn
+.foirbtn
+.fivebtn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.two-btn {
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.thee-btn {
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.foir-btn {
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.five-btn {
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.img-section {
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.portfolio-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;    
+}
+.list-img {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+
+
+/* .list-button {
+    margin-top: 25px;
+margin-right: 250px;
+} */
+
+
+
+/*footer*/
+.footer {
+    padding: 25px 1000px 35px 75px;
+    width: 1600px;
+    background: #2F303A;
+    margin-right: 100px;
+}
+.logo-footer {
+    margin-right: 75px;
+}
+.logofooter-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logofooter-stydio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.adress-item {
+    list-style: none;
+    vertical-align: middle;
+    
+}
+.adress-map {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.adress-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}

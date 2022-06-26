@@ -134,6 +134,10 @@ a {
 .button-size:hover {
     background: #db2606;    
 }
+.pointer {
+    cursor: pointer;
+  }
+  
 .button-size {
     /* margin-top: 150px; */
     width: 200px;
